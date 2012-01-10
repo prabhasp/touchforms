@@ -15,11 +15,15 @@ Getting started
 Get the prerequisites.
 Get the code.
 
+Some python prerequisites.
+    pip install -r requirements.pip
+
 Syncdb::
     python manage.py syncdb
     
 Run the backend::
     cd backend
+
     jython xformserver.py 4444
 
 Run the django frontend::
