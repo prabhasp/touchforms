@@ -95,8 +95,8 @@ RELEASE_VERSION = None
 
 import os
 ROOT_DIR = os.path.normpath(os.path.dirname(__file__))
-STATIC_DOC_ROOT = os.path.join(ROOT_DIR, "formplayer", "static")
-STATIC_URL = '/static/'
+STATIC_DOC_ROOT = os.path.join(ROOT_DIR, "formplayer", "static","formplayer")
+STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(ROOT_DIR, 'staticroot')
 XFORMS_BOOTSTRAP_PATH = "static/demo_forms"
 XFORMS_PATH = "data/xforms"
